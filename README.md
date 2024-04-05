@@ -38,14 +38,12 @@ playwright install
 When running this program, Amazon may detect you are automation and introduce CAPTCHA's or make you login again.  Just do so, and once successfully logged in, the script will continue.
 
 ```console
-$ amazon-invoice-downloader -h
-Amazon Invoice Downloader
 
 Usage:
-  amazon-invoice-downloader.py \
+  aid.py \
     [--email=<email> --password=<password>] \
     [--year=<YYYY> | --date-range=<YYYYMMDD-YYYYMMDD>]
-  amazon-invoice-downloader.py (-h | --help)
+  aid.py (-h | --help)
 
 Login Options:
   --email=<email>          Amazon login email  [default: $AMAZON_EMAIL].
@@ -59,11 +57,11 @@ Options:
   -h --help                Show this screen.
 
 Examples:
-  amazon-invoice-downloader.py --year=2022  # This uses env vars $AMAZON_EMAIL and $AMAZON_PASSWORD
-  amazon-invoice-downloader.py --date-range=20220101-20221231
-  amazon-invoice-downloader.py --email=user@example.com --password=secret  # Defaults to current year
-  amazon-invoice-downloader.py --email=user@example.com --password=secret --year=2022
-  amazon-invoice-downloader.py --email=user@example.com --password=secret --date-range=20220101-20221231
+  python aid.py --year=2022  # This uses env vars $AMAZON_EMAIL and $AMAZON_PASSWORD
+  python aid.py --date-range=20220101-20221231
+  python aid.py --email=user@example.com --password=secret  # Defaults to current year
+  python aid.py --email=user@example.com --password=secret --year=2022
+  python aid.py --email=user@example.com --password=secret --date-range=20220101-20221231
 ```
 
 
