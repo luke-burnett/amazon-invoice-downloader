@@ -29,7 +29,7 @@ The script will skip downloading a file if it already exists in the `./downloads
 ## Installation
 
 ```console
-pip3 -r requirements.txt
+pip3 install -r requirements.txt
 python3 aid.py --email=me@there.com --secret=mySecretPass --year=2023
 ```
 
