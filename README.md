@@ -1,6 +1,5 @@
 # Amazon Invoice Downloader (UK)
-Forked to work with Amazon UK and deal with some more complex use cases when finding and saving invoices
-Also kept as a plain script rather than using Hatch
+Forked to work with Amazon UK and deal with some more complex use cases when finding and saving invoices. Majority of code remains as written by David C Wang (thank you!). Also kept as a plain script rather than using Hatch - personal preference.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/amazon-invoice-downloader.svg)](https://pypi.org/project/amazon-invoice-downloader)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/amazon-invoice-downloader.svg)](https://pypi.org/project/amazon-invoice-downloader)
